@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+#matriz-container {
+    display: none;
+}
+.input-field {
+    margin-bottom: 10px;
+}
+.matrix-cell {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    text-align: center;
+}
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+body {
+    background-image: url('img/ds1-solaire.gif'); /* Ruta a tu imagen GIF */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Ajusta la opacidad según sea necesario */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/*Carrucel*/
+#carousel-container {
+    max-width: 250px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+#carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.carousel-img {
+    width: 100%;
+    height: auto;
+}
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+#prev-btn {
+    left: 10px;
+}
+#next-btn {
+    right: 10px;
+}
+
+
+h1 {
+    color: rgb(255, 255, 255); /* Cambia el color del texto a azul */
+}
+
+h2 {
+    color: rgb(255, 255, 255); /* Cambia el color del texto a azul */
+}
+
+label {
+    color: rgb(255, 255, 255); /* Cambia el color del texto a azul */
+}
